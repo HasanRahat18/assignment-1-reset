@@ -1,6 +1,11 @@
 *{
     margin: 0;
 }
+.header{
+    padding-top: 27px;
+    text-align: right;
+}
+
 .banner{
     background-image: url('images/banner/banner2.png');
     background-repeat: no-repeat;
@@ -31,7 +36,7 @@
 
 .btn-banner{
 
-    position: absolute;
+    
     width: 100px;
     height: 39px;
     left: 1100px;
@@ -39,5 +44,43 @@
     color: white;
     background-color: #F15B22;
     border-radius: 5px;
-    border: 1px solid;
+    border: 1px solid #F15B22;
+}
+.btn-banner:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.ban-btn{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 1104px;
+    top: 400px;
+
+}
+.failure{
+    margin-top: 130px;
+    gap: 87px;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.failure img{
+    width: 569px;
+    height: 600px;
+    padding-left: 206px;
+}
+.failure h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.failure p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 16px;
+   color: #444343
+}
+.failure-description{
+    padding-right: 200px;
 }
